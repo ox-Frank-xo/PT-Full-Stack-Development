@@ -1,0 +1,36 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.gridOne p{
+    margin: 0;
+    padding: 20px;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.child-one {
+    background-color: red;
+    padding: 5px;
+}
+
+.child-two {
+    background-color: blue;
+    padding: 5px;
+}
+
+.child-three {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.child-one p, .child-two p, .child-three p {
+    margin: 0;
+    color: black;
+}

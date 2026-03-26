@@ -1,0 +1,10 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f0f0f0;
+}
+
+.gridOne p{
+    margin: 0;
+    padding: 20px;
+}

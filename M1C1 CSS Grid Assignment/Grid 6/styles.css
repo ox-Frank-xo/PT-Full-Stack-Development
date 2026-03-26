@@ -1,0 +1,174 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.gridOne p{
+    margin: 0;
+    padding: 20px;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.child-one {
+    background-color: red;
+    padding: 5px;
+}
+
+.child-two {
+    background-color: blue;
+    padding: 5px;
+}
+
+.child-three {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.child-one p, .child-two p, .child-three p {
+    margin: 0;
+    color: black;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.first-child {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    padding: 5px;
+}
+
+.first-child p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.second-child {
+    background-color: #f0f0f0;
+    overflow: hidden;
+    
+}
+
+.second-child img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+    display: block;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.first-div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.first-div p {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#second-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#second-div p {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.first-div-five {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    padding: 5px;
+}
+
+.first-div-five p {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.second-div-five {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0;
+    padding: 5px;
+}
+
+.second-div-five img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
+.icon-container i {
+    font-size: 1rem;
+    color: #333;
+}
+
+.text-container p {
+    margin: 0;
+    font-family: "Permanent Marker", cursive;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
