@@ -178,11 +178,11 @@ for articulo in gadgets:
 
 Que pasa en este ejemplo:
 
-    - Python mira la lista gadgets.  
-    - Toma el ‌primer‌ elemento ("Laptop") y lo guarda en la variable articulo.
-    - Ejecuta el código indentado (el print).
-    - Vuelve al inicio, toma el ‌segundo‌ elemento ("Teclado Mecánico"), actualiza la variable articulo y ejecuta el código de nuevo.
-    - Así hasta que no queda nada en la lista.
+- Python mira la lista gadgets.  
+- Toma el ‌primer‌ elemento ("Laptop") y lo guarda en la variable articulo.
+- Ejecuta el código indentado (el print).
+- Vuelve al inicio, toma el ‌segundo‌ elemento ("Teclado Mecánico"), actualiza la variable articulo y ejecuta el código de nuevo.
+- Así hasta que no queda nada en la lista.
 
 Esto es mucho más limpio y menos propenso a errores que usar un while con un contador manual.
 
