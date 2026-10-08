@@ -631,7 +631,7 @@ Las lambdas son ideales como argumentos para sorted, map, filter y en operacione
 
 
 
-# 5. ¿Qué es un paquete pip?.
+# 6. ¿Qué es un paquete pip?.
 
 ‌*pip*‌ (cuyo nombre es un acrónimo recursivo de "Pip Installs Packages" o "Pip Installs Python") es una herramienta de línea de comandos moderna y universal utilizada para instalar y gestionar software escrito en Python.
 
