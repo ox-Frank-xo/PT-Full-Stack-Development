@@ -174,7 +174,7 @@ gadgets = ["Laptop", "Teclado Mecánico", "Monitor 4K", "Mouse Gamer"]
 
 for articulo in gadgets:
     print(f"Añadiendo a la cesta: {articulo}")
-
+```
 
 Que pasa en este ejemplo:
 
@@ -187,14 +187,14 @@ Que pasa en este ejemplo:
 Esto es mucho más limpio y menos propenso a errores que usar un while con un contador manual.
 
 
-Funcion range()
+*Funcion range()*
 
 A veces no tienes una lista de cosas, sino que simplemente quieres repetir una acción un número específico de veces (por ejemplo, "repite esto 5 veces"). Aquí es donde entra la función mágica range().
 
 Si quieres contar del 1 al 10, en otros lenguajes tendrías que configurar un inicio, un fin y un incremento. En Python, es tan simple como decir el rango:
 
 Ejemplo: 
-
+```python
 # Contemos del 1 al 10
 for numero in range(1, 11):
     print(f"Número actual: {numero}")
